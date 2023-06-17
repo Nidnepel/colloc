@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	serverPort = "8000"
+	serverPort = "7000"
 )
 
 func main() {

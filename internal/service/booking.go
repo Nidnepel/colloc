@@ -15,5 +15,5 @@ func NewBookingUsecase(booking repository.Booking) *BookingUsecase {
 }
 
 func (u *BookingUsecase) Create(ctx context.Context, newBooking model.Booking) (int, error) {
-	return u.Create(ctx, newBooking)
+	return u.repo.Create(ctx, newBooking)
 }
